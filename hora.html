@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    var fechaingreso=prompt("ingresa la fecha MM/DD/AAAA")
+    var fecha=new Date(fechaingreso)
+    var dia=fecha.getDay()
+    var diasemana
+    switch(dia){
+        case 0: diasemana="domingo"; break;
+        case 1: diasemana="lunes"; break;
+        case 2: diasemana="martes"; break;
+        case 3: diasemana="miercoles"; break;
+        case 4: diasemana="jueves"; break;
+        case 5: diasemana="viernes"; break;
+        case 6: diasemana="sabado"; break;
+       
+            }
+            alert(diasemana)
+</script>
+<body>
+    <h1>frefire
+    </h1>
+</body>
+</html>
